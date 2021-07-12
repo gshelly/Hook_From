@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Main-content {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 5px auto;
+  width :500px;
+}
+label {
+  color: #b1b1b1;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+input {
+  height: 30px;
+  width:300px;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+}
+
+#output h3 {
+  text-align: center;
+}
+
+#output {
+  margin:0px auto;
+  width :500px;
+}
+#output span {
+  padding-left: 30px;
 }
