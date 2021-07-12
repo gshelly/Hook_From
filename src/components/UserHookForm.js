@@ -37,11 +37,21 @@ const UserForm = (props) => {
             </div>
             <div id= "output">
                 <h3> Your Form Data</h3>
-                <p>First Name <span >{ firstName } </span></p>
-                <p>Last Name  <span>{ lastName } </span></p>
-                <p>Email  <span>{ email } </span></p>
-                <p>Password  <span>{ password }</span></p>
-                <p>Confirm Password  <span>{ cwd }</span></p>
+                <p>
+                    <label>First Name</label> { firstName } 
+                </p>
+                <p>
+                    <label> Last Name  </label> { lastName } 
+                </p>
+                <p> 
+                    <label>Email</label> { email } 
+                </p>
+                <p> 
+                    <label>Password </label> { password }
+                </p>
+                <p>
+                    <label>Confirm Password</label> { cwd }
+                </p>
             </div>
         </form>
     )
